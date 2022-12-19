@@ -1,0 +1,10 @@
+name: classification
+target: options
+batch_size: 32
+num_points: 1000
+num_workers: 1
+num_epochs: 10
+out_folder: 'cls'
+model: ''
+dataset: 'ModelNet10'
+feature_transform: 'store_true'
